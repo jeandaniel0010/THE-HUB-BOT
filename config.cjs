@@ -25,7 +25,7 @@ const config = {
   AUTO_READ: process.env.AUTO_READ === 'false',
   AUTO_TYPING: process.env.AUTO_TYPING === 'true',
   AUTO_RECORDING: process.env.AUTO_RECORDING === 'true',
-  AUTO_REACT: process.env.AUTO_REACT === 'true',
+  AUTO_REACT: process.env.AUTO_REACT === 'false',
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE === 'true',
   AUTO_BLOCK: process.env.AUTO_BLOCK !== 'false', // true by default
 
