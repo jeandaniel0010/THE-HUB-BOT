@@ -3,7 +3,7 @@ require("dotenv").config();
 
 const config = {
   // 🧠 Session & Identity
-  SESSION_ID: process.env.SESSION_ID || "NECTOR;;;FtQXlABI#PS9r9TFh5n55o4tNExBJVjASU6lWdR89ImV2vd2VaaE",
+  SESSION_ID: process.env.SESSION_ID || "NECTOR;;;Z9pTBAKb#-B11-_bNg63ox37r4iHdEKlzNur1q5dNJYg2swq43BU",
   PREFIX: process.env.PREFIX || '.',
   BOT_NAME: process.env.BOT_NAME || "THE-HUB-BOT",
   BOT: process.env.BOT || "hello 👋",
@@ -20,8 +20,8 @@ const config = {
   // 🔧 Auto features
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN === 'true',
   AUTO_BIO: process.env.AUTO_BIO === 'true',
-  AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === 'true',
-  AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS === 'true',
+  AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === 'false',
+  AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS === 'false',
   AUTO_STICKER: process.env.AUTO_STICKER === 'true',
   AUTO_READ: process.env.AUTO_READ === 'true',
   AUTO_TYPING: process.env.AUTO_TYPING === 'true',
@@ -31,9 +31,9 @@ const config = {
   AUTO_BLOCK: process.env.AUTO_BLOCK !== 'false', // true by default
 
   // 📦 Extra Features
-  ANTI_LEFT: process.env.ANTI_LEFT === 'true',
+  ANTI_LEFT: process.env.ANTI_LEFT === 'false',
   ANTILINK: process.env.ANTILINK === 'true',
-  ANTI_DELETE: process.env.ANTI_DELETE === 'true',
+  ANTI_DELETE: process.env.ANTI_DELETE === 'false',
   CHAT_BOT: process.env.CHAT_BOT === 'true',
   CHAT_BOT_MODE: process.env.CHAT_BOT_MODE || "public",
   LYDEA: process.env.LYDEA === 'true',
@@ -43,16 +43,16 @@ const config = {
 
   // 🛠 Other
   MODE: process.env.MODE || "public",
-  DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "254725474072@s.whatsapp.net",
+  DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "+2250500694652@s.whatsapp.net",
 
   // 👑 Owner & Permissions
   OWNER_NAME: process.env.OWNER_NAME || "❤️ⓃⒺCⓉOR🍯",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "254725474072",
-  SUDO_NUMBER: process.env.SUDO_NUMBER || "254725474072",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "+2250500694652",
+  SUDO_NUMBER: process.env.SUDO_NUMBER || "+2250500694652",
 
   // 💚 Auto react emoji
-  AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || '💚',
-  STATUS_READ_MSG: process.env.STATUS_READ_MSG || 'Status Viewed by THE-HUB-BOT',
+  AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || 'false',
+  STATUS_READ_MSG: process.env.STATUS_READ_MSG || 'false',
   WELCOME: process.env.WELCOME === 'true',
 };
 
